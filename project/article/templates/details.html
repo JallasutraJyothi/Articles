@@ -1,0 +1,17 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<style>
+    
+</style>
+<link rel="stylesheet" href="{% static 'css/details.css' %}">
+<main>
+    <a href="{% url 'index' %}"><button class="back-btn">Back</button></a> <br>
+<div class="dcontent-box">
+            
+    <h1>{{data1.heading}}</h1>
+    <p>{{data1.description }}</p>
+   
+</div>
+</main>
+{% endblock content %}

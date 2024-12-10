@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: cyan;
+    
+}
+
+main {
+text-align: center;
+}
+
+h1 {
+color: white;
+}
+
+.card {
+background-color: #fffacd;
+padding: 20px;
+margin: 10px auto;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+cursor: pointer;
+transition: transform 0.2s;
+max-width: 600px;
+}
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+.card h3 {
+margin-left: 0;
+color: #d0312d;
+margin-bottom: 10px;
+}
+
+.card p {
+margin: 0;
+}
+
+a{
+text-decoration: none;
+color: black;
+}

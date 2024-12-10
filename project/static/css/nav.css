@@ -1,0 +1,31 @@
+.navbar{
+    border: 2px solid black;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.navul{
+    list-style: none;
+    margin-left:200px;
+}
+
+.navul li{
+    float: left;
+    margin-left: 20px;
+}
+
+.navul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navul li input{
+    background-color: black;
+    margin-left: 500px;
+    color: white;
+}
+.navul li button{
+    background-color: black;
+    color: blue;
+}

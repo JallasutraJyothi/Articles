@@ -1,0 +1,22 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<style>
+    body{
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: cyan;
+        align-items: center;
+        text-align: center;
+    }
+    .abt-content{
+        width: 1000px;
+        margin-left: 250px;
+    }
+</style>
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+<div class="abt-content">
+    <h1>About Me</h1>
+    <p>Welcome to <b>Today's Articles</b>, a platform designed to empower readers and writers alike. Explore a diverse collection of articles, share your ideas, and engage in meaningful discussions. Built with simplicity and collaboration in mind, our goal is to make knowledge accessible to everyone.</p>
+</div>
+{% endblock content %}

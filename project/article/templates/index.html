@@ -1,0 +1,27 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<style>
+    
+</style>
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+<body>
+    <main>
+        <h2>Today's Articles</h2>
+        {% for i in data %}
+        <a href="{% url 'details' i.id %}">
+            <div class="card">
+            
+                <h3>{{i.heading}}</h3>
+                <p>{{i.description | truncatewords:10}}</p>
+               
+            </div>
+        </a>
+        {% endfor %}
+
+        
+    </main>
+
+    
+</body>
+{% endblock content %}
